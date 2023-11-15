@@ -1,0 +1,88 @@
+.card{
+    width: 100%;
+    padding: 1rem;
+    border-radius: .5rem;
+    border: 1px solid #ccc;
+    box-shadow: 0px 2px 8px 1px #ccc;
+    background-color: var(--white1);
+    margin-bottom: 1rem;
+    cursor: pointer;
+}
+.wrapper{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+.id{
+    color: var(--textgrey);
+    font-size: .95rem;
+    font-weight: 500;
+}
+.profile{
+    height: 26px;
+    width: 26px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--white1);
+    background-color: #b06e0c;
+    border-radius: 50%;
+    font-size: .8rem;
+    position: relative;
+}
+
+.active-status{
+    height: 12px;
+    width: 12px;
+    background-color: var(--grey1);
+    border: 1.5px solid var(--white1);
+    position: absolute;
+    z-index: 0;
+    border-radius: 50%;
+    left: 70%;
+    top: 70%;
+}
+.online{
+    background-color: rgb(72, 223, 12);
+}
+.title{
+    font-size: 1rem;
+    font-weight: 600;
+    color: var(--black1);
+
+}
+.tag{
+    display: flex;
+    align-items: center;
+    margin-top: .8rem;
+}
+.icon{
+    border: 1px solid var(--grey1);
+    border-radius: .3rem;
+    width: 25px;
+    height: 25px;
+    display: flex;
+    margin-right: .5rem;
+    color: var(--textgrey);
+}
+
+.tag-box{
+    border: 1px solid var(--grey1);
+    padding: .3rem;
+    border-radius: .3rem;
+    width: fit-content;
+}
+.tag-title{
+    font-size: .85rem;
+    font-weight: 500;
+    color: var(--textgrey);
+}
+.tag-title::before{
+    display: inline-block;
+    content: " ";
+    height: 10px;
+    width: 10px;
+    background-color: var(--textgrey);
+    border-radius: 50%;
+    margin-right: .2rem;
+}

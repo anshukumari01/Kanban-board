@@ -1,0 +1,50 @@
+.list{
+    width: 360px;
+    margin-left: 2.5rem;
+}
+.list:last-child{
+    margin-right: 2.5rem;
+}
+.list-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1.5rem 0rem;
+}
+.list-container-left, .list-container-right{
+    display: flex;
+    align-items: center;
+}
+.icon{
+    margin-right: .5rem;
+    display: flex;
+    align-items: center;
+}
+.title{
+    margin-right: .65rem;
+    font-weight: 600;
+    font-size: 1rem;
+}
+.add-item{
+    margin-right: .5rem;
+    cursor: pointer;
+    color: var(--textgrey);
+}
+.option-item{
+    margin-right: .5rem;
+    cursor: pointer;
+    color: var(--textgrey);
+}
+.card-items{
+    width: 100%;
+}
+
+@media (max-width: 500px) and (min-width: 300px){
+    .list{
+        width: 320px;
+        margin-left: 1.5rem;
+    }
+    .list:last-child{
+        margin-right: 1.5rem;
+    }
+}
